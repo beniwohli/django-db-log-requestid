@@ -1,3 +1,5 @@
 *.pyc
 dist
 django_postgres_readonly.egg-info
+.cache
+.idea

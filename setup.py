@@ -8,14 +8,14 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='django-query-commenter',
+    name='django-db-log-requestid',
 
     version='1.0.0',
 
     description='',
     long_description=long_description,
 
-    url='https://github.com/piquadrat/django-query-commenter',
+    url='https://github.com/piquadrat/django-db-log-requestid',
 
     author='Opbeat',
     author_email='benjamin@opbeat.com',

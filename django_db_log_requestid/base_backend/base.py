@@ -6,7 +6,7 @@ from django.conf import settings
 from django_db_log_requestid import utils, defaults
 
 
-logger = logging.getLogger()
+logger = logging.getLogger('django_db_log_requestid')
 
 
 class DBLogRequestIdCursorWrapperMixin(object):

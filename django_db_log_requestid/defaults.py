@@ -1,4 +1,4 @@
-REQUEST_ID_HEADER_NAME = 'X_REQUEST_ID'
+REQUEST_ID_HEADER_NAME = 'X-Request-Id'
 
 REQUEST_ID_SQL_TEMPLATE = '{sql} -- request_id={request_id}'
 
